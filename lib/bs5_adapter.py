@@ -21,13 +21,13 @@ def replace_text_in_file(input_file):
 def process_file(input_file):
     try:
         extension = input_file.split(".")[-1].lower()
-        allowed_extensions = ["slim", "html", "jsx", "tsx"]
+        allowed_extensions = ["slim", "html", "js", "jsx", "tsx"]
 
         if extension in allowed_extensions:
             replace_text_in_file(input_file)
         else:
             print(
-                "Unsupported file extension: {extension}. Only .slim, .html, and .jsx files are supported."
+                "Unsupported file extension: {extension}. Only .slim, .html, .js and .jsx files are supported."
             )
     except EnvironmentError as err:
         if err.errno == errno.ENOENT:  # ENOENT = No entity
