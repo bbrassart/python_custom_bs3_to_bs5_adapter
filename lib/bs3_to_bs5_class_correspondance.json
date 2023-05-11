@@ -71,8 +71,48 @@
   "pull-right": "float-end",
   "pull-left": "float-start",
 
-  "text-justify": "###text-justify DEPRECATED It is not recommended to justify content https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment ###",
+  "text-justify": "###text-justify REMOVED It is not recommended to justify content https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment ###",
 
   "form-group": "###form-group DEPRECATED Use grid and utilities tools instead###",
-  "form-inline": "###form-inline DEPRECATED Use grid and utilities tools instead###"
+  "form-inline": "###form-inline DEPRECATED Use grid and utilities tools instead###",
+  "cta-link": "###cta-link REMOVED No correspondance in BS5 UI-Toolbox###",
+  "list-unstyled": "###list-unstyled REMOVED No correspondance in BS5 UI-Toolbox###",
+  "border-left-sm": "###border-left-sm REMOVED No correspondance in BS5 UI-Toolbox###",
+  "on-dark-bg": "###on-dark-bg REMOVED No correspondance in BS5 UI-Toolbox###",
+  "on-gray-bg": "###on-gray-bg REMOVED No correspondance in BS5 UI-Toolbox###",
+  "ghost-container": "###ghost-container REMOVED No correspondance in BS5 UI-Toolbox. Look in the children nodes, if the class ghost is present, remove it as well###",
+  "btn-line-primary": "btn-outline-primary",
+  "btn-line-default": "btn-outline-secondary",
+  "btn-line-success": "###btn-outline-success WARNING this uses BS5 defaults, not the UI Toolbox###",
+  "btn-line-danger": "###btn-outline-danger WARNING this uses BS5 defaults, not the UI Toolbox###",
+  "btn-line-warning": "###btn-outline-warning WARNING this uses BS5 defaults, not the UI Toolbox###",
+  "btn-line-info": "btn-outline-info",
+  "btn-gray-dark": "btn-dark",
+  "btn-default": "btn-secondary",
+  "btn-solid-info": "###btn-solid-info REMOVED No correspondance in BS5 UI-Toolbox###",
+  "btn-line-gray-dark": "###btn-line-gray-dark REMOVED No correspondance in BS5 UI-Toolbox###",
+  "btn-line-info-link": "###btn-line-info-link REMOVED No correspondance in BS5 UI-Toolbox###",
+
+  "loading-on-active": "###loading-on-active REMOVED No correspondance in BS5 UI-Toolbox###",
+
+  "search-result": "###search-result WARNING this class has many hidden CSS rules applied in BS3. Remove it in BS5###",
+  "search-highlight": "###search-highlight REMOVED No correspondance in BS5 UI-Toolbox###",
+
+  "form-horizontal": "###form-horizontal REMOVED Use grid and utilities tools instead###",
+  "control-label": "###control-label REMOVED Use utilities tools or form-control class instead###",
+
+  "widget-row": "###widget-row REMOVED No correspondance in BS5 UI-Toolbox###",
+  "widget-wrap": "###widget-wrap REMOVED No correspondance in BS5 UI-Toolbox###",
+  "gray-box": "###gray-box REMOVED No correspondance in BS5 UI-Toolbox###",
+
+  "devex-internal-preview": "###devex-internal-preview REMOVED No correspondance in BS5 UI-Toolbox###",
+
+  "flexible-logo-container": "###flexible-logo-container REMOVED No correspondance in BS5 UI-Toolbox###",
+  "logo-container": "###logo-container REMOVED No correspondance in BS5 UI-Toolbox###",
+  "info-container": "###info-container REMOVED No correspondance in BS5 UI-Toolbox###",
+
+  "data-behavior=": "###data-behavior= REMOVED No correspondance for such JS behavior in BS5 UI-Toolbox###"
+
+
+
 }
