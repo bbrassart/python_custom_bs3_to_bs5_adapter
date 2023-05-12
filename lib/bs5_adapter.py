@@ -1,6 +1,7 @@
 import sys
 import errno
 import json
+import re
 
 
 def replace_text_in_file(input_file):
@@ -11,7 +12,8 @@ def replace_text_in_file(input_file):
         content = file.read()
 
     for class_name, replacement in predefined_classes.items():
-        content = content.replace(class_name, replacement)
+        pattern = r'(?<=[.\s\'"])' + re.escape(class_name)  # Regex pattern to match word preceded by ., space, ' or "
+        content = re.sub(pattern, replacement, content)
 
     with open(input_file, "w") as file:
         file.write(content)
