@@ -1,9 +1,9 @@
 # python_custom_bs3_to_bs5_adapter
-A small Python script written with the help of GPT and CoPilot. The script takes one or more file paths as input and overwrite the original content of the files. converting Bootstrap 5 classes to Bootstrap 5.
+A small Python script written with the help of GPT and CoPilot. The script takes one or more file paths as input and overwrite the original content of the files. converting Bootstrap 3 classes to Bootstrap 5.
 
 # What does this script do?
 You can run one or multiple template files - such as a JSX, JS, SLIM or HTML file - through the script. It replaces the detected Bootstrap 3 classes for their Bootstrap 5 classes' correspondance.
-It also lets you know that a Bootstrap 3 class is deprecated and does not have a BS5 counterpart.
+It also lets you know if a Bootstrap 3 class is deprecated and does not have a BS5 counterpart.
 
 # ChatGPT reviewed description of the script
 * It holds a dictionary of BS3 to BS5 class correspondance in a JSON file called `lib/bs3_to_bs5_class_correspondance.json`
