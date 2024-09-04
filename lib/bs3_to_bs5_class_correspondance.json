@@ -70,6 +70,7 @@
 
   "pull-right": "float-end",
   "pull-left": "float-start",
+  "img-responsive": "img-fluid",
 
   "text-justify": "###text-justify REMOVED It is not recommended to justify content https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment ###",
 
