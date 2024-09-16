@@ -68,6 +68,15 @@
   "v-padding-large": "py-35",
   "v-padding-xlarge": "py-48",
 
+  "$spacing-small": "$spacing-15",
+  "$spacing-medium": "$spacing-25",
+  "$spacing-large": "$spacing-4",
+  "$spacing-xlarge": "$spacing-5",
+
+  "$spacing-news-medium": "$spacing-3",
+  "$spacing-news-large": "$spacer * 2",
+  "$spacing-news-xlarge": "$spacing-5",
+  
   "pull-right": "float-end",
   "pull-left": "float-start",
   "img-responsive": "img-fluid",
